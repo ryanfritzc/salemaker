@@ -25,8 +25,8 @@ function getDevMenuHint() {
 export default function HomeScreen() {
   return (
     <>
-      <View className="text-center bg-red-500 h-screen items-center justify-center">
-        <p>This the start... of something new 🎤</p>
+      <View className="text-center bg-gray-700 h-screen items-center justify-center">
+        <p className="text-white">This the start... of something new 🎤</p>
       </View>
       {/* <ThemedView style={styles.container}>
         <SafeAreaView style={styles.safeArea}>
